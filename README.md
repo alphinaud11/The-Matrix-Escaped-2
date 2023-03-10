@@ -1,5 +1,5 @@
 # The Matrix: Escaped 2 :running_man:
-A logic-based version of ([The Matrix: Escaped](https://github.com/alphinaud11/The-Matrix-Escaped)) but in a much simpler environment.
+A logic-based version of ([The Matrix: Escaped](https://github.com/alphinaud11/The-Matrix-Escaped)) but in a much simpler environment.a
 
 ## Description :memo:
 The project is about searching for a solution in an environment that consists of the following:
