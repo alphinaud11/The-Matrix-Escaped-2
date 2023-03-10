@@ -1,0 +1,53 @@
+grid(3,3).
+neo_loc(1,0).
+booth(0,2).
+capacity(1).
+hostages_loc([[2,2]]).
+S= result(drop, result(up, result(up, result(carry, result(down, result(right, result(right, s0))))))).
+
+
+grid(3,3).
+neo_loc(1,2).
+booth(2,0).
+capacity(1).
+hostages_loc([[1,1]]).
+S= result(drop, result(left, result(down, result(carry, result(left, s0))))).
+
+
+grid(3,3).
+neo_loc(2,1).
+booth(0,1).
+capacity(2).
+hostages_loc([[1,2],[0,0]]).
+S= result(drop, result(right, result(carry, result(left, result(up, result(left, result(carry, result(right, result(up, s0))))))))).
+
+
+grid(3,3).
+neo_loc(1,1).
+booth(0,1).
+capacity(2).
+hostages_loc([[2,2],[1,0]]).
+S= result(drop, result(left, result(up, result(up, result(carry, result(right, result(down, result(right, result(carry, result(left, s0)))))))))).
+
+grid(4,4).
+neo_loc(3,3).
+booth(1,3).
+capacity(1).
+hostages_loc([[0,0]]).
+S= result(drop, result(down, result(right, result(right, result(right, result(carry, result(left, result(up, result(up, result(left, result(left, result(up, s0)))))))))))).
+
+grid(4,4).
+neo_loc(1,2).
+booth(2,2).
+capacity(1).
+hostages_loc([[0,1],[3,3]]).
+S= result(drop, result(up, result(left, result(carry, result(down, result(right, result(drop, result(right, result(down, result(down, result(carry, result(left, result(up, s0))))))))))))).
+
+
+grid(4,4).
+neo_loc(1,2).
+booth(2,2).
+capacity(2).
+hostages_loc([[0,1],[3,3]]).
+S= result(drop, result(up, result(left, result(carry, result(down, result(down, result(down, result(right, result(right, result(carry, result(up, result(left, s0)))))))))))) ;
+
