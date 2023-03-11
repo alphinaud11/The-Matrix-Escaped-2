@@ -9,7 +9,7 @@ The project is about searching for a solution in an environment that consists of
 3. **Hostages :standing_man: :** characters that Neo must save.
 4. **Telephone booth :telephone: :** the destination that Neo must reach in order to escape the matrix.
 
-The main mission for Neo is to reach the telephone booth with all hostages saved.
+The main mission for Neo is to reach the telephone booth with all hostages saved.a
 
 ## Note
 This is a university (GUC) course project. Course name is (CSEN 901 : Introduction to Artificial Intelligence). For a detailed description of the project and its requirements as well as the project report, please have a look at the [description](Description) folder.
